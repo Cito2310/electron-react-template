@@ -1,8 +1,9 @@
 {
   "name": "electron-react-template",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "",
   "description": "",
+  "keywords": [ "electron", "react", "template", "typescript", "basic" ],
   "main": "build/electron/main.js",
   "private": true,
   "dependencies": {
