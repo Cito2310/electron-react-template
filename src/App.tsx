@@ -1,11 +1,9 @@
 function App() {
   const onClickBasicIpcOn = () => {
-    // @ts-ignore
     window.electronAPI.basicOnIpc("hello world")
   }
 
   const onClickBasicIpcHandle = async() => {
-    // @ts-ignore
     console.log(await window.electronAPI.basicHandleIpc("hello world"))
   }
 
