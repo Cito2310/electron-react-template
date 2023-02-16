@@ -1,6 +1,8 @@
 import { app, BrowserWindow } from 'electron';
 import * as path from 'path';
 
+import { ipConnection } from './ipcConnection';
+
 function createWindow() {
   const win = new BrowserWindow({
     width: 800,
@@ -35,4 +37,6 @@ app.whenReady().then(() => {
       app.quit();
     }
   });
+
+  ipConnection();
 });
